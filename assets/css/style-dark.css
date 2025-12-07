@@ -5272,7 +5272,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-list:after { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: 100vw; height: 1px; content: ''; background: #7a0fff; }
 
-.roadmap-innr { padding: 0 25px 30px; }
+.roadmap-innr { padding: 0 25px 50px; }
 
 .roadmap-innr:before { position: absolute; left: 0; height: 100%; width: 1px; content: ''; transform: translateX(-50%); background-image: linear-gradient(to bottom, #2b56f5 0%, #7a0fff 100%); }
 
@@ -5355,7 +5355,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .roadmap-title { font-size: 18px; }
   .roadmap-title-s1 { padding-top: 48px; }
   .roadmap-title-s2 { font-size: 1rem; }
-  .roadmap-list { display: flex; align-items: flex-end; margin-bottom: 200px; }
+  .roadmap-list { display: flex; align-items: flex-end; margin-bottom: 400px; }
   .roadmap-item { flex-basis: 0; flex-grow: 1; max-width: 100%; }
   .roadmap-item:nth-child(even) { flex-grow: 0; width: 0; }
   .roadmap-item:nth-child(even) .roadmap-innr { position: absolute; top: 0; left: 0; padding-top: 90px; min-width: 190px; transform: translateX(calc(-50% + 5px)); }
