@@ -442,15 +442,15 @@
                         <div class="row justify-content-center gutter-vr-40px">
                             <div class="col-md-10 col-lg-8 col-mb-8">
                                 <div class="single-chart">
-                                    <h3 class="mgb-l text-center title-lg animated" data-animate="fadeInUp" data-delay=".05">With Speculative Rotational (HotStuff-1) in 2025</h3>
+                                    <h3 class="mgb-l text-center title-lg animated" data-animate="fadeInUp" data-delay=".05">With Speculative Rotational Design in 2025</h3>
                                     <div class="stats-container" style="max-width: 520px; margin: auto;">
                                         <div class="stat">
                                             <div class="number">4–64</div>
                                             <div class="label">Replicas</div>
                                         </div>
                                         <div class="stat">
-                                            <div class="number">4</div>
-                                            <div class="label">Protocol variants</div>
+                                            <div class="number">HotStuff-1</div>
+                                            <div class="label">Protocol</div>
                                         </div>
                                     </div>
                                     <div class="chart animated" data-animate="fadeInUp" data-delay=".1">
@@ -774,7 +774,6 @@
                                     <h6 class="roadmap-title roadmap-title-s2">2024</h6>
                                     <p style="font-size: 10px;">
                                         <a href="https://arxiv.org/abs/2205.04534" target="_blank"><em class="fas fa-crown" style="font-size: 8px;"></em> The Bedrock of BFT</a>, <br />
-                                        <a href="https://arxiv.org/abs/2407.09409" target="_blank"> Thunderbolt: Causal Smart Contract Concurrency</a>, <br />
                                         <a href="https://arxiv.org/abs/2501.14732" target="_blank"> Orthrus: Multi-BFT Consensus via Concurrent Partial Ordering</a>, <br />
                                         <a href="https://arxiv.org/abs/2501.00021" target="_blank"> Partial Progress Conjecture under Asynchrony</a>, <br />
                                         <a href="https://arxiv.org/abs/2412.01999" target="_blank"> Reconfigurable Geo-Replication</a>, <br />
@@ -786,7 +785,7 @@
                                     <h6 class="roadmap-title roadmap-title-s2">2025</h6>
                                     <p style="font-size: 10px;">
                                         <a href="https://link.springer.com/book/10.1007/978-3-032-07282-5" target="_blank"> Philosophical Pillars of Blockchain</a>, <br />
-                                        <a href="https://arxiv.org/abs/2408.04728" target="_blank"> HotStuff-1: Linear Consensus with One-Phase Speculation</a>, <br />
+                                        <a href="https://arxiv.org/abs/2408.04728" target="_blank"><em class="fas fa-crown" style="font-size: 8px;"></em> HotStuff-1: Linear Consensus with One-Phase Speculation</a>, <br />
                                         <a href="https://arxiv.org/abs/2501.01062" target="_blank"> Fides: DAG Meets SGX</a>, <br />
                                         <a href="https://arxiv.org/abs/2504.02194" target="_blank"> FairDAG: Consensus Fairness</a>, <br />
                                         <a href="https://reslens.resilientdb.com/" target="_blank"> ResLens: Real-time Exploration & Monitoring</a>, <br />
@@ -796,14 +795,16 @@
                             </div>
                             <div class="roadmap-item roadmap-item-lg">
                                 <div class="roadmap-innr">
-                                    <h6 class="roadmap-title roadmap-title-s2"> & Beyond...</h6>
+                                    <h6 class="roadmap-title roadmap-title-s2">2026 & Beyond...</h6>
                                     <p style="font-size: 10px;">
+                                        <a href="https://arxiv.org/abs/2407.09409" target="_blank"><em class="fas fa-crown" style="font-size: 8px;"></em> Thunderbolt: Causal Smart Contract Concurrency</a>, <br />
+                                        Ethical Foundation of Computing
                                         Reliable Caching & Indexing, <br />
                                         Formal Methods for Consensus Correctness, <br />
                                         Hardware Accelerated Consensus (FPGA, RDMA, SGX), <br />
                                         Practical Asynchronous Consensus Protocol, <br />
                                         Off-chain Decentralized Storage, <br /> 
-                                        Planet Scale Reliability,
+                                        Planet Scale Reliability, <br />
                                     </p>
                                 </div>
                             </div>
@@ -2634,34 +2635,10 @@
               labels: ['4', '16', '32', '64'],
               datasets: [
                 {
-                  label: 'HS',
-                  data: [5.4735, 7.8041, 9.0037, 14.0277],
+                  label: 'HotStuff-1',
+                  data: [3.21112, 4.4728, 5.336, 8.4536],
                   borderColor: '#59b4a9',
                   backgroundColor: 'rgba(89, 180, 169, 0.35)',
-                  tension: 0.1,
-                  fill: false
-                },
-                {
-                  label: 'HS-2',
-                  data: [4.3366, 5.9582, 7.171, 11.2806],
-                  borderColor: '#FF5733',
-                  backgroundColor: 'rgba(255, 87, 51, 0.35)',
-                  tension: 0.1,
-                  fill: false
-                },
-                {
-                  label: 'HS-1',
-                  data: [3.2029, 4.5172, 5.5422, 8.4171],
-                  borderColor: '#6b8cff',
-                  backgroundColor: 'rgba(107, 140, 255, 0.35)',
-                  tension: 0.1,
-                  fill: false
-                },
-                {
-                  label: 'HS-1-SLOT',
-                  data: [3.21112, 4.4728, 5.336, 8.4536],
-                  borderColor: '#c084fc',
-                  backgroundColor: 'rgba(192, 132, 252, 0.35)',
                   tension: 0.1,
                   fill: false
                 }
